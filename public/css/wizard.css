@@ -1,0 +1,118 @@
+.stepwizard-step p {
+    margin-top: 10px;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circleTramo {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    font-size: 10px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+  }
+.displayNone{
+  display: none;
+}
+#asterisco {
+  color:#ff0000;
+}
+
+.margenIz {
+    margin-left: 20px;
+}
+
+.paddingIz {
+    padding-left: 20px;
+}
+
+
+.negritaverde {
+    font-weight: bold;
+    color:#108616;
+    font-size: 20px;
+}
+
+.colorerror {
+    color:#ff0000;
+    font-size: 14px;
+}
+
+.checkbox-style {
+  height: 25px;
+  width: 25px;
+  background-color: #4ab122;
+}
+
+
+/* Efecto Shake */
+    .shake-effect {
+        transition: all 1s ease-in-out;
+        animation: swing 0.65s ease;
+        animation-iteration-count: 1;
+      }
+      
+      /* #btnBuscar:hover {
+        animation: swing 1s ease;
+        animation-iteration-count: 1;
+      } */
+      
+      @keyframes swing {
+        15% {
+          transform: translateX(5px);
+        }
+        30% {
+          transform: translateX(-5px);
+        }
+        50% {
+          transform: translateX(3px);
+        }
+        65% {
+          transform: translateX(-3px);
+        }
+        80% {
+          transform: translateX(2px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+/* Fin Efecto Shake */
+
+
+
+
